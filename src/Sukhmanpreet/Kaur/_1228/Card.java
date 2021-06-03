@@ -1,4 +1,4 @@
-package pickacard;
+package Sukhmanpreet.Kaur._1228;
 
 /**
  * A class that models playing card Objects. Cards have 
