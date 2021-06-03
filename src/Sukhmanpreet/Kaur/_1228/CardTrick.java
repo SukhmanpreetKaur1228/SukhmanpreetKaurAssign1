@@ -23,10 +23,8 @@ public class CardTrick {
 
         Card userCard = new Card(); 
         userCard.setSuit(JOptionPane.showInputDialog("Enter your card suit here"));
-        userCard.setValue(Integer.parseInt(JOptionPane.showInputDialog("Enter your card suit here")));
-    //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here
-        //Then report the result here
+        userCard.setValue(Integer.parseInt(JOptionPane.showInputDialog("Enter your card Value here")));
+     
     }
 
 }
