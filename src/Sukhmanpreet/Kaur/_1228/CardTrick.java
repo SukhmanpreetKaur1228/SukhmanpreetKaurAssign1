@@ -22,7 +22,7 @@ public class CardTrick {
             c.setValue((int)(Math.random()*13+1));
             c.setSuit(Card.SUITS[(int)(Math.random()*3)]);
             magicHand[i]=c;
-            
+            System.out.println(magicHand[i].getValue()+" "+magicHand[i].getSuit());
             }
 
         Card userCard = new Card(); 
@@ -35,7 +35,7 @@ public class CardTrick {
                 break;
                } 
             else {
-                if(i==6){
+                if(i==(magicHand.length-1)){
                     System.out.println("Sorry, you lost");}
                }
                              
