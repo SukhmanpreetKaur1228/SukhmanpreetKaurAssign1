@@ -39,7 +39,7 @@ public class CardTrick {
                     System.out.println("Sorry, you lost");}
                }
                              
-        }  
+        }
     
     }
 
