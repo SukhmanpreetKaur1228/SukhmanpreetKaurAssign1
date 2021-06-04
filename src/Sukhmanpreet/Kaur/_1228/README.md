@@ -7,3 +7,5 @@
  Otherwise, user loses.
 # Supplementary Information- 
 In this program, there is a commented section of code which, if not commented, asks the user for choosing a card and if the card is present in the 7 random cards, the user will win. Otherwise, user will lose.
+
+
