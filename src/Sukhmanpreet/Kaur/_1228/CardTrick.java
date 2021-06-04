@@ -1,6 +1,6 @@
 package Sukhmanpreet.Kaur._1228;
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects and then asks the user to pick a card and
