@@ -17,15 +17,24 @@ public class CardTrick {
 
         for (int i = 0; i < magicHand.length; i++) {
             Card c = new Card();
-            c.setValue((int)(Math.random()));
-            c.setSuit(Card.SUITS[(int)(Math.random())]);
+            c.setValue((int)(Math.random()*13+1));
+            c.setSuit(Card.SUITS[(int)(Math.random()*3)]);
+            
             }
 
         Card userCard = new Card(); 
-        userCard.setSuit(JOptionPane.showInputDialog("Enter your card suit here"));
         userCard.setValue(Integer.parseInt(JOptionPane.showInputDialog("Enter your card Value here")));
+        userCard.setSuit(JOptionPane.showInputDialog("Enter your card suit here"));
+        
+        
+        
+        
+        
         
         for(int i=0;i<magicHand.length;i++){
+           
+            
+   
             
         }
     }
